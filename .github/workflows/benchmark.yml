@@ -2,7 +2,7 @@ name: "benchmark"
 on:
   - pull_request
   - push
-  - workflow-dispatch
+  - workflow_dispatch
 jobs:
   benchmark-cachix:
     strategy:
